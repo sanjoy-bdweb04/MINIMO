@@ -1,0 +1,204 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* headder section*/
+
+
+header{
+	width: 100%;
+	display: inline-block;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+
+}
+.logo{
+	width: 20%;
+	float: left;
+	
+}
+.logo img{
+
+}
+nav{
+	width: 80%;
+	float: right;
+}
+nav ul{
+	width: 100%;
+	text-align: right;
+	margin:10px auto;
+
+}
+nav ul li{
+	list-style: none;
+	display:inline-block;
+	padding-right: 40px;
+}
+nav ul li:last-child{
+	padding-right: 0px!important;
+}
+nav ul li a{
+	text-decoration: none;
+	font-size: 13px;
+	color: gray;
+}
+/*-banar-----*/
+ .banar-section{
+	width: 100%;
+}
+.banar-img{
+	width: 100%;
+}
+.banar-img img{
+	width:100%; 
+
+}
+/*....article-section....*/
+.articles-section{
+	width: 100%
+}
+.container-art{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.art-part-1{
+	padding: 40px 0;
+}
+.art-part-1 span{
+	color: gray;
+	margin: 20px 0;
+}
+.art-part-1 h2{
+		color: gray;
+	margin: 20px 0;
+}
+.art-part-1 p{
+		color: gray;
+	margin: 20px 0;
+}
+
+.art-part-1 a{
+	text-decoration: none;
+		color: gray;
+	margin: 20px 0!important;
+}
+.gallery{
+	width: 100%;
+	margin: 20px 0;
+	display: inline-block;
+}
+.gallery-box {
+	width: 48%;
+	float: left;
+	margin-right: 20px;
+}
+.gallery-box img{
+	width: 100%;
+}
+.gallery-box span{
+	color: grey;
+	margin: 20px 0;
+	display: inline-block;
+}
+.gallery-box  h2{
+	color: gray;
+	margin: 20px 0;
+}
+.gallery-box p{
+	color: gray;
+	}
+.margin{
+	margin-right: 20px;
+}
+.newsletter-section{
+width: 100%;
+background-color : #E4E2E2;
+margin: 30px 0;
+padding:100px 0;
+}
+.news{
+text-align: center;
+}
+.news h2{
+	margin:25px;
+}
+.news input{
+	border: none;
+	border-bottom: 1px solid black;
+	background:transparent;
+	width: 40%;
+	padding:10px;
+}
+.news button{
+	border: none;
+	background-color: transparent;
+}
+.news button a{
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+}
+.button-section{
+	width: 100%;
+
+}
+.btn{
+	text-align: center;
+	padding: 50px;
+
+}
+.btn a{
+	text-decoration: none;
+	font-size: 20px;
+	font: bolt;
+}
+.btn button{
+	padding: 20px 50px;
+}
+.footer{
+width: 100%;
+background-color:#6D6E6A;
+padding:40px 0;
+}
+.terms{
+margin-left: 50px;
+}
+.terms ul{
+	list-style: none;
+}
+.terms ul li{
+	float: left;
+	padding-right: 20px;
+	font-size: 19px;
+}
+.terms ul li a{
+	text-decoration: none;
+	color: black;
+}
+.follow{
+float: right;
+margin-right: 50px;
+}
+
+.follow ul{
+	list-style:none;
+}
+.follow ul li{
+	float: left;
+	font-size:19px;
+	padding-right: 15px;
+}
+.follow ul li:last-child{
+		padding-right: 0px!important;
+}
+.follow a img{
+		width: 20px;
+	height: 20px;
+}
+
+}
